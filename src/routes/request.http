@@ -1,0 +1,25 @@
+@hostname = http://localhost
+@port = 8000
+@host = {{hostname}}:{{port}}
+
+### GET USER
+GET {{host}}/api/users/23ceab21-98e3-42c1-85fa-d28ed3f5afb7
+content-type: application/json
+
+### DELETE USER
+DELETE {{host}}/api/users/23ceab21-98e3-42c1-85fa-d28ed3f5afb7
+content-type: application/json
+
+{}
+
+### PATCH USER
+PATCH {{host}}/api/users
+content-type: application/json
+
+{}
+
+### POST USER
+POST {{host}}/api/users
+content-type: application/json
+
+{}
